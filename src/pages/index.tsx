@@ -1,7 +1,7 @@
 import DocumentHead from '../components/document-head'
 import ExtLink from '../components/ext-link'
 import styles from '../styles/page.module.css'
-import Image from 'next/image'
+// import Image from 'next/image'
 
 const RenderPage = () => (
   <div className={styles.container}>
