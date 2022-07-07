@@ -1,7 +1,10 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
-import { SITE_TITLE } from './document-head'
+// hide 20220707
+// import { SITE_TITLE } from './document-head'
+// hide 20220707
+
 import styles from '../styles/header.module.css'
 
 interface NavItem {
@@ -21,7 +24,13 @@ const Header = () => {
     <header className={styles.header}>
       <h1>
         <Link href="/" passHref>
-          <a>{SITE_TITLE}</a>
+          {/* add 20220707 */}
+          <div className={styles.logo}></div>
+          {/* add 20220707 */}
+
+          {/* hide 20220707 */}
+          {/* <a>{SITE_TITLE}</a> */}
+          {/* hide 20220707 */}
         </Link>
       </h1>
 

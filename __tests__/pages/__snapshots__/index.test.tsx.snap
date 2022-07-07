@@ -6,11 +6,8 @@ exports[`RenderPage renders the page unchanged 1`] = `
     class="container"
   >
     <div>
-      <h1>
-        techPeck
-      </h1>
       <h2>
-        Welcome!
+        About
       </h2>
       <p>
         Your easy-notion-blog deployed successfully!

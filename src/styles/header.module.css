@@ -29,3 +29,14 @@
 .header ul li :global(a.active) {
   color: var(--accents-3);
 }
+
+/* add 20220707 */
+.header .logo {
+  background-image: url(../img/logo.png);
+  background-size:contain;
+  background-position: center center;
+  width:100%;
+  height:180px;
+  background-repeat: no-repeat;
+}
+/* add 20220707 */

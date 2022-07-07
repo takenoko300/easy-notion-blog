@@ -37,9 +37,16 @@ body {
   min-height: 100vh;
   background: var(--bg);
   color: var(--fg);
-  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI,
+  /* add 20220707 */
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  /* add 20220707 */
+
+  /* hide 20220707 */
+  /* font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI,
     Hiragino Kaku Gothic ProN, Hiragino Sans, ヒラギノ角ゴ ProN W3, Arial,
-    メイリオ, Meiryo, sans-serif;
+    メイリオ, Meiryo, sans-serif; */
+  /* hide 20220707 */
+
   /*-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   */
