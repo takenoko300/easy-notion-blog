@@ -1,5 +1,7 @@
 import DocumentHead from '../components/document-head'
-import ExtLink from '../components/ext-link'
+// hide 20220707
+// import ExtLink from '../components/ext-link'
+// hide 20220707
 import styles from '../styles/page.module.css'
 
 const RenderPage = () => (

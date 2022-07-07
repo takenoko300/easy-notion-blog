@@ -10,21 +10,19 @@ exports[`RenderPage renders the page unchanged 1`] = `
         About
       </h2>
       <p>
-        Your easy-notion-blog deployed successfully!
+        機械、電気、プログラミングなどで遊び、学んだ内容を発信します。
+        <br />
+        ただし、今はp5.jsにハマっているため、その内容ばかり。
       </p>
+    </div>
+    <div>
+      <h2>
+        Profile
+      </h2>
       <p>
-        Have fun!
-      </p>
-      <p>
-        easy-notion-blog powered by
-         
-        <a
-          href="https://github.com/otoyo/easy-notion-blog"
-          rel="noopener"
-          target="_blank"
-        >
-          otoyo/easy-notion-blog
-        </a>
+        メーカーに勤務する機械系エンジニアです。
+        <br />
+        プログラミングは趣味ですが、副業できるレベルを目指しています。
       </p>
     </div>
   </div>
