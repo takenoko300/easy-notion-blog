@@ -9,6 +9,9 @@ exports[`RenderPage renders the page unchanged 1`] = `
       <h1>
         techPeck
       </h1>
+      <h2>
+        Welcome!
+      </h2>
       <p>
         Your easy-notion-blog deployed successfully!
       </p>
