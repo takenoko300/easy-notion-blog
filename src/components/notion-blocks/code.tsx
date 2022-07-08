@@ -31,18 +31,17 @@ import 'prismjs/components/prism-yaml'
 
 import { RichText } from '../../lib/notion/interfaces'
 
+import { RichText } from '../../lib/notion/interfaces'
+
 import styles from '../../styles/notion-block.module.css'
 
 const Mermaid = dynamic(() => import('./mermaid'))
 
 const Code = ({ block }) => {
   const code = block.Code.Text.map((richText: RichText) => richText.Text.Content).join('')
-<<<<<<< HEAD
+
   const language = block.Code.Language.toLowerCase()
   const grammer = Prism.languages[language.toLowerCase()] || Prism.languages.javascript
-=======
-  const language = block.Code.Language || 'javascript'
->>>>>>> 2ea9cf4 (Merge pull request #98 from otoyo/refactor)
 
   return (
     <div className={styles.code}>
