@@ -308,16 +308,14 @@ const NotionBlock = ({ block }) => {
   return null
 }
 
-const NotionBlocks = ({ blocks }) => (
-  <>
-    {wrapListItems(blocks).map((block: interfaces.Block, i: number) => (
-      <NotionBlock block={block} key={`block-${i}`} />
-    ))}
-  </>
-)
+const NotionBlocks = ({ blocks }) => {
+  return wrapListItems(blocks).map((block, i) => (
+    <NotionBlock block={block} key={`block-${i}`} />
+  ))
+}
 
-const wrapListItems = (blocks: Array<interfaces.Block>) =>
-  blocks.reduce((arr, block: interfaces.Block, i: number) => {
+const wrapListItems = blocks =>
+  blocks.reduce((arr, block, i) => {
     const isBulletedListItem = block.Type === 'bulleted_list_item'
     const isNumberedListItem = block.Type === 'numbered_list_item'
 

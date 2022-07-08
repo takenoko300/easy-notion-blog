@@ -1,7 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
 
-import { Post } from '../lib/notion/interfaces'
 import NotionBlocks from './notion-block'
 import {
   getBeforeLink,
