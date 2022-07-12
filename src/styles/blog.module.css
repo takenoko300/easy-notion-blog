@@ -44,29 +44,61 @@
   margin: 0 auto 40px;
 }
 .post :global(h3) {
-  margin: 0;
+  /* 20220711 hide */
+  /* margin: 0; */
+  /* 20220711 hide */
   color: var(--fg);
+  
+  /* 20220711 add */
+  margin: 0rem 0 1.2rem;
+  padding: 0.5rem 0.0rem;
+  border-bottom: 3px solid #000;
+  /* 20220711 add */
 }
 .post :global(h4) {
-  margin: 1.8rem 0 0.8rem;
+  margin: 4.0rem 0 2.0rem;
+  /* 20220711 add */
+  padding: 0.5rem 1.2rem;
+  border-left: 4px solid #000;
+  background: #f4f4f4;
+  font-size: 1.5rem;
+  /* 20220711 add */
+
   color: var(--fg);
-  font-size: 1.1rem;
+  /* 20220711 hide */
+  /* margin: 1.8rem 0 0.8rem; */
+  /* font-size: 1.1rem; */
+  /* 20220711 hide */
 }
 .post :global(h4):after {
   color: var(--accents-1);
   font-size: 0.9rem;
-  content: '▼';
+  /* 20220711 hide */
+  /* content: '▼'; */
+  /* 20220711 hide */
   padding-left: 0.2rem;
 }
 .post :global(h5) {
-  margin: 1.8rem 0 0.8rem;
+  /* 20220711 add */
+  padding: 0.1rem 0.8rem;
+  border-left: 3px solid #000;
+  margin: 3.0rem 0 1.2rem;
   color: var(--fg);
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  /* 20220711 add */
+  
+  /* 20220711 hide */
+  /* margin: 1.8rem 0 0.8rem; */
+  /* color: var(--fg); */
+  /* font-size: 1.1rem; */
+  /* 20220711 hide */
 }
 .post :global(h5):after {
   color: var(--accents-1);
   font-size: 0.9rem;
-  content: '▼';
+  /* 20220711 hide */
+  /* content: '▼'; */
+  /* 20220711 hide */
   padding-left: 0.2rem;
 }
 .post :global(h6) {
